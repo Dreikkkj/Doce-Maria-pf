@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #EED4D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #4A3B3E;
+}
+
+.color-pink {
+    color: #CA6F7D;
+}
+
+.login-container {
+    background-color: #FFFFFF;
+    width: 100%;
+    max-width: 450px;
+    padding: 40px;
+    border-radius: 24px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+    text-align: center;
+}
+
+.login-header h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #3E292C; 
+}
+
+.login-header p {
+    font-size: 14px;
+    color: #8C787C;
+    margin-bottom: 30px;
+}
+
+.logo-form {
+    width: 150px;
+    height: 130px;
+    object-fit: contain;
+    margin: 0 auto 20px;
+    display: block;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: none; 
+}
+
+.input-control {
+    width: 100%;
+    padding: 16px 20px;
+    border: 1px solid #EAD5D9;
+    border-radius: 12px;
+    font-size: 14px;
+    color: #4A3B3E;
+    background-color: #FFFFFF;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.input-control::placeholder {
+    color: #A8989C;
+}
+
+.input-control:focus {
+    border-color: #CA6F7D;
+}
+
+.btn-submit {
+    width: 100%;
+    background-color: #CA6F7D; 
+    color: #FFFFFF;
+    border: none;
+    padding: 16px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.btn-submit:hover {
+    background-color: #B25F6C;
+}
+
+.login-footer {
+    margin-top: 30px;
+    font-size: 13px;
+    color: #7A696C;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.login-footer p {
+    margin: 0;
+}
+
+.login-footer a {
+    color: #CA6F7D;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.login-footer a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* CADASTRO */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #EED4D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #4A3B3E;
+}
+
+.cadastro-container {
+    background-color: #FFFFFF;
+    width: 100%;
+    max-width: 490px;
+    padding: 40px;
+    border-radius: 24px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+    text-align: center;
+}
+
+.icon-topo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #F8E9EC;
+    color: #4A3B3E;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 15px;
+}
+
+.cadastro-header h1 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #3E292C;
+}
+
+.cadastro-header h1 .heart {
+    font-size: 18px;
+}
+
+.cadastro-header p {
+    font-size: 13px;
+    color: #8C787C;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    border: 1px solid #EAD5D9;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    transition: border-color 0.3s ease;
+}
+
+.input-wrapper:focus-within {
+    border-color: #CA6F7D;
+}
+
+.input-icon {
+    background-color: #F8E9EC;
+    padding: 16px;
+    color: #4A3B3E;
+    border-right: 1px solid #EAD5D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 50px;
+}
+
+.input-icon-right {
+    padding: 16px;
+    color: #4A3B3E;
+    cursor: pointer;
+}
+
+.input-wrapper input {
+    flex: 1;
+    border: none;
+    padding: 16px 15px;
+    font-size: 13px;
+    color: #4A3B3E;
+    outline: none;
+    background-color: transparent;
+}
+
+.input-wrapper input::placeholder {
+    color: #A8989C;
+}
+
+.btn-submit {
+    width: 100%;
+    background-color: #CA6F7D;
+    color: #FFFFFF;
+    border: none;
+    padding: 16px;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
+
+.btn-submit:hover {
+    background-color: #B25F6C;
+}
+
+
+.divisor {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 25px 0;
+    color: #A8989C;
+    font-size: 13px;
+}
+
+.divisor::before,
+.divisor::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #EAD5D9;
+}
+
+.divisor span {
+    padding: 0 15px;
+}
+
+.cadastro-footer {
+    font-size: 13px;
+    color: #7A696C;
+}
+
+.cadastro-footer a {
+    color: #CA6F7D;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.cadastro-footer a:hover {
+    text-decoration: underline;
+}

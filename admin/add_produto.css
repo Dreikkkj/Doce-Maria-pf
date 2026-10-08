@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #EED4D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #4A3B3E;
+    padding: 20px;
+}
+
+.admin-container {
+    background-color: #FFFFFF;
+    width: 100%;
+    max-width: 550px;
+    padding: 40px;
+    border-radius: 24px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.admin-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.icon-topo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #F8E9EC;
+    color: #CA6F7D;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 15px;
+}
+
+.admin-header h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #3E292C;
+}
+
+.admin-header p {
+    font-size: 14px;
+    color: #8C787C;
+}
+
+.alert {
+    padding: 12px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.alert-error {
+    background-color: #FCE8EF;
+    color: #DC2626;
+    border: 1px solid #F07FA6;
+}
+.alert-success {
+    background-color: #e6f4ea;
+    color: #1e8e3e;
+    border: 1px solid #a8dab5;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    color: #7A696C;
+    margin-bottom: 8px;
+}
+
+.form-row {
+    display: flex;
+    gap: 15px;
+}
+
+.form-group.half {
+    flex: 1;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    border: 1px solid #EAD5D9;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    transition: border-color 0.3s ease;
+}
+
+.input-wrapper:focus-within {
+    border-color: #CA6F7D;
+}
+
+.input-icon {
+    background-color: #F8E9EC;
+    padding: 16px;
+    color: #4A3B3E;
+    border-right: 1px solid #EAD5D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 50px;
+}
+
+.input-wrapper input,
+.input-wrapper select,
+.input-wrapper textarea {
+    flex: 1;
+    border: none;
+    padding: 14px 15px;
+    font-size: 14px;
+    color: #4A3B3E;
+    outline: none;
+    background-color: transparent;
+    width: 100%;
+}
+
+.input-wrapper select {
+    cursor: pointer;
+    appearance: none;
+}
+
+.textarea-wrapper {
+    align-items: flex-start;
+}
+.textarea-wrapper .input-icon {
+    height: 100%;
+    min-height: 95px;
+}
+.textarea-wrapper textarea {
+    resize: vertical;
+}
+
+.form-actions {
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.btn-submit {
+    flex: 1;
+    background-color: #CA6F7D;
+    color: #FFFFFF;
+    border: none;
+    padding: 16px;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-submit:hover {
+    background-color: #B25F6C;
+}
+
+.btn-cancel {
+    flex: 1;
+    background-color: #FFFFFF;
+    color: #CA6F7D;
+    border: 2px solid #CA6F7D;
+    padding: 14px;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-cancel:hover {
+    background-color: #F8E9EC;
+}
+
+.alert {
+    padding: 12px;
+    border: 1px solid #F07FA6;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background: #FCE8EF;
+    color: #DC2626;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.image-upload {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border: 1px dashed #CA6F7D;
+    border-radius: 12px;
+    background: #FFF9FA;
+    color: #4A3B3E;
+    font-size: 13px;
+}
+
+.image-help {
+    display: block;
+    margin-top: 7px;
+    color: #8C787C;
+    font-size: 11px;
+}

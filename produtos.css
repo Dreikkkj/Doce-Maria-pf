@@ -1,0 +1,137 @@
+body {
+    background-color: #fdeef9; 
+    font-family: sans-serif;
+}
+
+.layout-conteudo {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 80px;
+}
+
+.sidebar-categorias {
+    background: #eed8e9;
+    padding: 15px;
+    border-radius: 10px;
+    width: 180px;
+}
+
+.sidebar-categorias ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+}
+
+.grid-produtos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colunas de cartões */
+    gap: 15px;
+    flex-grow: 1;
+}
+
+.card-produtos{
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.img-produto {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.acoes-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.adicionar-carrinho-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.contador-qtd {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 3px 6px;
+    background: #fff7fa;
+    border: 1px solid #f1d5e1;
+    border-radius: 20px;
+}
+
+.contador-qtd .btn-menos,
+.contador-qtd .btn-mais {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 26px;
+    height: 26px;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    background: #eaa4b1;
+    color: #ffffff;
+    font: 600 17px/1 'Montserrat', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.contador-qtd .btn-menos:hover,
+.contador-qtd .btn-mais:hover {
+    background: #623822;
+    transform: scale(1.08);
+}
+
+.contador-qtd .btn-menos:focus-visible,
+.contador-qtd .btn-mais:focus-visible {
+    outline: 2px solid #623822;
+    outline-offset: 2px;
+}
+
+.contador-qtd .qtd-valor {
+    min-width: 14px;
+    color: #623822;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.btn-compre {
+    background-color: #f3b6da;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-adicionar-carrinho {
+    padding: 7px 12px;
+    border: 0;
+    border-radius: 5px;
+    background: #623822;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-adicionar-carrinho:hover {
+    background: #4b2a1a;
+}
+
+p{
+    color:pink
+}
